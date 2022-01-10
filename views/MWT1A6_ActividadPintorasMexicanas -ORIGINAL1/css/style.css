@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primari: #ffc2e5;
+    --color-secundary: #6e2585;
+}
+body{
+    background-color: var(--color-primari);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*dar difuminacion al text x y sobreado color*/
+    text-shadow: 2px 0.5px 3px #ff1493; 
+}
+h3{
+    color: red;
+    text-align: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+}
+h4{
+    color: var(--color-secundary);
+    text-align: center;
+    padding: 5px;
+}
+h5{
+    padding: 7px;
+    margin: 10px;
+}
+/*dar estilo a la clase pintoras*/
+.pintoras{
+    color: var(--color-secundary);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.2;
+    margin: 30px;
+}
+.parrafo{
+    padding: 0.1px;
+    margin: 32px; 
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*dar stilo a la clase bonita*/
+.bonitas{
+    text-align: end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+/*dar stilo a la clase mujeres*/
+.mujeres{
+    background-color: rgb( 208,144,238);
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    padding: 0.5px;
+    margin: 30px;
+    text-align: justify;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 10px 12px 0.5px #ff00ff;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rebeccapurple;
+}
+/*tamaño de las imagenes*/
+.mujeres img{
+    width: 100%;
+    height: 50vh;
+}
+/*dar estilo a la clase a biografia*/
+.biografia{
+    border-width: 4px;
+    border-style: dashed;
+    border-color: red;
+} 
+/*dar estilo a la clase referencia*/
+/*dar estilo a escrito*/
+.escrito{
+   text-align: justify;
+   padding: 28px;
+}
+.referencia{
+    text-align: start;
+    margin: 12px;
+    padding: 20px;
+}
+/*dar stilo a la clase ul y li*/
+ul{
+    padding-left: 18px;
+    padding-bottom: 50px;
+    margin-left: 80px;
+    text-align: justify;
+}

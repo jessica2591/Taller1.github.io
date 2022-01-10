@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dona{
+    background-color: rgba(36, 36, 209, 0.712);
+    font-family: fantasy;
+    font-size: 30px;
+}
+#pan{
+    background-color: coral;
+    color: white;
+    font-family: cursive;
+    font-size: 40;
+}
